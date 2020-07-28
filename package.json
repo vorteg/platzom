@@ -1,0 +1,35 @@
+{
+  "name": "@vorteg/platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorteg/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "curso",
+    "javascript",
+    "js"
+  ],
+  "author": "Victor Ortega <vorteg.r@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vorteg/platzom/issues"
+  },
+  "homepage": "https://github.com/vorteg/platzom#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
